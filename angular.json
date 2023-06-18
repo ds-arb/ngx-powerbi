@@ -147,14 +147,11 @@
           }
         },
         "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
+          "builder": "@angular-eslint/builder:lint",
           "options": {
-            "tsConfig": [
-              "projects/ngx-powerbi/tsconfig.lib.json",
-              "projects/ngx-powerbi/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
+            "lintFilePatterns": [
+              "projects/ngx-powerbi/**/*.ts",
+              "projects/ngx-powerbi/**/*.html"
             ]
           }
         }
