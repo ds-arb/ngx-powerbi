@@ -1,16 +1,14 @@
 {
-  "name": "ngx-powerbi",
-  "version": "6.0.0",
+  "name": "@deliverysolutions/ngx-powerbi",
+  "version": "1.0.0",
   "description": "TypeScript library for embedding Power BI assets (reports/dashboards/tiles) in your application. This TypeScript library is built on top of the official powerbi-client library provided by Microsoft.",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ramandeep-singh-1983/ngx-powerbi"
+    "url": "https://github.com/ds-arb/ngx-powerbi"
   },
-  "homepage" :"https://medium.com/@ramandeep.singh.1983/ngx-powerbi-a-basic-typescript-wrapper-library-for-power-bi-b056150b3f25",
   "author": {
-    "name": "Ramandeep Singh",
-    "email": "ramandeep.singh.1983@gmail.com"
+    "name": "Delivery Solutions"
   },
   "publishConfig": {
     "access": "public"
