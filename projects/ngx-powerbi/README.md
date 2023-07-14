@@ -1,8 +1,5 @@
 # ngx-powerbi
 
-[![NPM Version](https://img.shields.io/npm/v/ngx-powerbi.svg)](https://www.npmjs.com/package/ngx-powerbi)
-[![NPM Total Downloads](https://img.shields.io/npm/dt/ngx-powerbi.svg)](https://www.npmjs.com/package/ngx-powerbi)
-
 TypeScript library for embedding Power BI assets (reports/dashboards/tiles) in your application. This TypeScript library is built on top of the official [powerbi-client](https://www.npmjs.com/package/powerbi-client) library provided by Microsoft.
 
 ## Installation
@@ -17,7 +14,7 @@ npm install powerbi-client
 Install the ngx-powerbi library:
 
 ```
-npm install ngx-powerbi
+npm install @deliverysolutions/ngx-powerbi
 ```
 
 ## Usage
@@ -33,7 +30,7 @@ Pick up and play: Use the included Power BI component directly in your component
 - **Import the 'NgxPowerBiModule' module inside your target module:**
 
 ```
-import { NgxPowerBiModule } from 'ngx-powerbi';
+import { NgxPowerBiModule } from '@deliverysolutions/ngx-powerbi';
 
 @NgModule({
   imports: [
@@ -90,7 +87,7 @@ If you want more fine-grain control of the embedding functionality, use the prov
 - **Import and instantiate the Power BI service in your component.ts file. Also, get a reference to the div we created in the component HTML file earlier:**
 
 ```
-import { NgxPowerBiService } from 'ngx-powerbi';
+import { NgxPowerBiService } from '@deliverysolutions/ngx-powerbi';
 
 export class ReportsContainer implements OnInit {
   private powerBiService: NgxPowerBiService;
@@ -193,9 +190,3 @@ The Power BI embedding functionality requires an access token to the Power BI Pr
 ## References
 
 This TypeScript library is built on top of the official [powerbi-client](https://www.npmjs.com/package/powerbi-client) library provided by Microsoft and references some code from [PowerBI-Angular2](https://github.com/diego-d5000/PowerBI-Angular2) library.
-
-## Donate
-
-- **Paypal**: https://www.paypal.me/ramsi1983
-
-- **Crypto**: Ethereum wallet address: 0xBeA952fc85c084C298CB3aC0cE198dD389488CB9
